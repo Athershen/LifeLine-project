@@ -265,6 +265,10 @@ body{
     line-height: 1.5;
 }
 
+#Social li{
+text-align: left;
+}
+
 #Solution{
     border-bottom:#3da096 3px solid;
     vertical-align:baseline;
