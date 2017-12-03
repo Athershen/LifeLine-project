@@ -134,7 +134,7 @@
       float: right;
       margin-right: 4vw;
       height: 35px;
-      margin-top: 1vh;
+      margin-top: -1vh;
       margin-bottom: -1vh;
       width: 35px;
     }
@@ -426,18 +426,5 @@ footer h2{
         height: 0;
         width: 0;
         display: none;
-    }
-    
-        footer{
-        text-align: center;
-        float: left;
-        font-size: 15px;
-        width:100%;
-        color: white;
-        position: absolute;
-        background-color: black;
-        left:0;
-        bottom: 0;
-        right: 0;
     }
 }
