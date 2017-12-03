@@ -20,7 +20,7 @@
 }
 
 .wrapper img{
-  max-height: 50px;
+  max-height: 8vh;
   top: 0;
   left: 0;
   width: auto;
@@ -48,7 +48,7 @@
     background-color: lightblue;
   }
   .naviBar li a{
-    padding: 0px 4vw;
+    padding: 0px 3vw;
     float: left;
   }
   .naviBar  a {
@@ -119,6 +119,7 @@
     }
 
     #Solution{
+      width: auto;
       right: 0;
         }
 
