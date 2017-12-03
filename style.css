@@ -254,6 +254,27 @@ body{
     width: 5vw;
     height: 10vh;
 }
+
+#Solution{
+    float: left;
+    border-bottom:#3da096 3px solid;
+    vertical-align:baseline;
+    font-family: sans-serif;
+    font-size: 21px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+#Application{
+    float: left;
+    border-bottom:#3da096 3px solid;
+    vertical-align:baseline;
+    font-family: sans-serif;
+    font-size: 21px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
 @media only screen and (max-width:430px){
         .Navbar{
         font-family:"arial black", gadget, sans-serif;
