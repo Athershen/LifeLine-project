@@ -13,19 +13,21 @@
 }
 
 .logo {
-  width: auto;
-  float: left;
-  display: inline-block;
-  margin: 0 1em;
+    width: auto;
+    float: left;
+    display: inline-block;
+    margin: 0 1em;
 }
 
 .wrapper img{
-  max-height: 50px;
-  top: 0;
-  left: 0;
-  width: auto;
-  position: absolute;
-  float: left;
+    max-height: 60px;
+    top: 0;
+    left: 0;
+    width: auto;
+    position: absolute;
+    float: left;
+    padding-left: 1vw;
+    padding-top: 1vw;
 }
 /*Content Wrapper*/
 .wrapper {
@@ -226,6 +228,7 @@ body{
     padding-right: 10vw;
     height: 100vh;
     line-height: 1.5;
+    padding-top: 10vh;
 }
 
 #Social li{
@@ -243,6 +246,7 @@ body{
     padding-right: 10vw;
     height: 100vh;
     line-height: 1.5;
+    padding-top: 10vh;
 }
 
 #Application{
@@ -256,6 +260,7 @@ body{
     padding-right: 10vw;
     height: 100vh;
     line-height: 1.5;
+    padding-top: 10vh;
 }
 
 
