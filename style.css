@@ -165,6 +165,7 @@ body{
     float:left;
     background: url("MainPage.jpg") no-repeat;
     background-size: cover;
+    border-bottom:#3da096 3px solid;
 }
 
 .Phone{
