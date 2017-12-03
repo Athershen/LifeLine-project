@@ -8,6 +8,8 @@
   min-width: 100%;
   float: left;
   z-index: 1;
+  border-bottom:#3da096 3px solid;
+
 }
 
 .logo {
@@ -104,13 +106,13 @@
       border-bottom: 2px solid #3da096;
       display: block;
       font-size: 15px;
-      padding: 10vh 10vw 10vh 10vw;
+      padding: 5vh 25vw 5vh 25vw;
       float: left;
     }
 
     #menu-toggle:checked ~ ul {
       opacity: 1;
-      height: 62vh;
+      height: 50vh;
       visibility: visible;
       float: left;
     }
@@ -118,11 +120,12 @@
     .label-toggle {
       background: linear-gradient(to bottom, #3da096 0%, #3da096 20%, transparent 20%, transparent 40%, #3da096 40%, #3da096 60%, transparent 60%, transparent 80%, #3da096 80%, #3da096 100%);
       cursor: pointer;
+      width: 100%;
       display: block;
       float: right;
       height: 35px;
       margin-top: 2vh;
-      margin-bottom: 2vh;
+      margin-bottom: -1vh;
       width: 35px;
     }
 
@@ -264,15 +267,15 @@ footer{
 }
 
 .facebook{
-    
+
 }
 
 .twitter{
-    
+
 }
 
 .youtube{
-    
+
 }
 
 @media only screen and (max-width:430px){
