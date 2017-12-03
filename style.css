@@ -11,6 +11,8 @@
   top: 0;
   overflow: hidden;
   left: 0;
+  border-bottom:#3da096 3px solid;
+
 }
 
 .logo {
@@ -43,6 +45,7 @@
     list-style-type: none;
     width: 50%;
     background-color: lightblue;
+    overflow: hidden;
   }
   .naviBar li a{
     padding: 0px 4vw;
@@ -139,7 +142,11 @@
 }
 
 
-
+.Navbar li a:hover{
+    color:#3da096;
+    width: 100%;
+    height: 100%;
+}
 
 body{
     margin: 0;
@@ -148,14 +155,15 @@ body{
     overflow-x: hidden;
     background-color: rgb(223,208,195);
 }
-
+.content{
+  width: 100%;
+}
 .Main{
     width: 100vw;
     height: 100vh;
     float:left;
     background: url("MainPage.jpg") no-repeat;
     background-size: cover;
-    border-bottom:#3da096 3px solid;
 }
 
 .Phone{
