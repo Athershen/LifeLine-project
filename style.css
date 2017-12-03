@@ -58,10 +58,9 @@
   a:hover {
     color: #3da096;
   }
-
-  a:active, a:link {
-    color: red;
-  }
+  a:active{
+    /*Athe fiks dette*/
+    }
 
   .naviBar li  {
     display: inline-block;
