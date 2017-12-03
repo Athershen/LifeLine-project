@@ -253,26 +253,53 @@ footer{
     float: left;
     font-size: 20px;
     width:100%;
-    color: black;
-    position:relative;
-    background-color: #3da096;
+    color: white;
+    position: relative;
+    background-color: black;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: left;
+    color: grey;
 }
 
 .bilder{
     width: 100vw;
     float: left;
+    padding-left: 38vw;
 }
 
 .facebook{
-    
+    float: left;
+}
+.facebook img{
+    max-height: auto;
+    max-width: 7vw;
+    bottom: 0;
+    left: 0;
 }
 
 .twitter{
-    
+    float: left;
+}
+
+.twitter img{
+    max-height: auto;
+    max-width: 7vw;
+    bottom: 0;
+    left: 0;
 }
 
 .youtube{
-    
+    float: left;
+}
+
+.youtube img{
+    max-height: auto;
+    max-width: 7vw;
+    bottom: 0;
+    left: 0;
 }
 
 @media only screen and (max-width:430px){
