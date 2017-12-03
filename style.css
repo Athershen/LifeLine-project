@@ -6,6 +6,8 @@
   background-color: black;
   position: fixed;
   min-width: 100%;
+  float: left;
+  z-index: 1;
 }
 
 .logo {
@@ -15,8 +17,10 @@
   margin: 0 1em;
 }
 
-.naviBar img{
-  max-height: 60px;
+.wrapper img{
+  max-height: 50px;
+  top: 0;
+  left: 0;
   width: auto;
   position: absolute;
   float: left;
@@ -54,6 +58,10 @@
     color: #3da096;
   }
 
+  a:active, a:link {
+    color: red;
+  }
+
   .naviBar li  {
     display: inline-block;
   }
@@ -88,6 +96,7 @@
       text-align: center;
       transition: all 1s ease;
       width: 100%;
+      float: left;
       visibility: hidden;
     }
 
@@ -96,12 +105,14 @@
       display: block;
       font-size: 15px;
       padding: 10vh 10vw 10vh 10vw;
+      float: left;
     }
 
     #menu-toggle:checked ~ ul {
       opacity: 1;
       height: 62vh;
       visibility: visible;
+      float: left;
     }
 
     .label-toggle {
@@ -123,7 +134,7 @@
 
 
 
-/*Broren min*/
+
 
 
 
@@ -254,27 +265,6 @@ body{
     width: 5vw;
     height: 10vh;
 }
-
-#Solution{
-    float: left;
-    border-bottom:#3da096 3px solid;
-    vertical-align:baseline;
-    font-family: sans-serif;
-    font-size: 21px;
-    text-align: center;
-    background-color: gainsboro;
-}
-
-#Application{
-    float: left;
-    border-bottom:#3da096 3px solid;
-    vertical-align:baseline;
-    font-family: sans-serif;
-    font-size: 21px;
-    text-align: center;
-    background-color: gainsboro;
-}
-
 @media only screen and (max-width:430px){
         .Navbar{
         font-family:"arial black", gadget, sans-serif;
