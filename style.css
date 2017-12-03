@@ -260,6 +260,38 @@ body{
     text-align: center;
     background-color: gainsboro;
     float: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 100vh;
+    1.5;
+}
+
+#Solution{
+    border-bottom:#3da096 3px solid;
+    vertical-align:baseline;
+    font-family: sans-serif;
+    font-size: 21px;
+    text-align: center;
+    background-color: gainsboro;
+    float: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 100vh;
+    line-height: 1.5;
+}
+
+#Application{
+    border-bottom:#3da096 3px solid;
+    vertical-align:baseline;
+    font-family: sans-serif;
+    font-size: 21px;
+    text-align: center;
+    background-color: gainsboro;
+    float: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 100vh;
+    line-height: 1.5;
 }
 
 .HoldingPhone{
