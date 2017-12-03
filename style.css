@@ -46,7 +46,7 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 50%;
+    width: 100%;
     background-color: lightblue;
   }
   .naviBar li a{
@@ -97,8 +97,8 @@
       height: 0;
       list-style-type: none;
       opacity: 0;
-      text-align: center;
-      transition: all 1s ease;
+      text-align: right;
+      transition: all 2s ease;
       width: 100%;
       float: left;
       visibility: hidden;
@@ -110,7 +110,7 @@
       font-size: 15px;
       padding: 6vh 6vw 6vh 6vw;
       float: left;
-      right: 0;
+      width: 100%;
     }
 
     #menu-toggle:checked ~ ul {
@@ -118,22 +118,23 @@
       height: 55vh;
       visibility: visible;
       float: left;
+      text-align: right;
+
     }
 
     #Solution{
-      width: auto;
+      border-bottom: 2px solid #3da096;
       right: 0;
         }
 
     .label-toggle {
       background: linear-gradient(to bottom, #3da096 0%, #3da096 20%, transparent 20%, transparent 40%, #3da096 40%, #3da096 60%, transparent 60%, transparent 80%, #3da096 80%, #3da096 100%);
       cursor: pointer;
-      width: 100%;
       display: block;
       float: right;
       margin-right: 4vw;
       height: 35px;
-      margin-top: 2vh;
+      margin-top: -1vh;
       margin-bottom: -1vh;
       width: 35px;
     }
