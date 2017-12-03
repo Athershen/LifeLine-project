@@ -134,7 +134,7 @@
       float: right;
       margin-right: 4vw;
       height: 35px;
-      margin-top: 1vh;
+      margin-top: -1vh;
       margin-bottom: -1vh;
       width: 35px;
     }
@@ -735,6 +735,7 @@ footer h2{
         width: 0;
         display: none;
     }
+<<<<<<< HEAD
     
         #Social{
         border-bottom: 3px solid #3da096;
@@ -792,6 +793,8 @@ footer h2{
         bottom: 0;
         right: 0;
     }
+=======
+>>>>>>> 6a1b9c7074ddbfff00c17c9f0e698a63834c8044
 }
 
 
